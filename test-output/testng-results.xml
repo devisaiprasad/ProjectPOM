@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Facebook" duration-ms="67819" started-at="2020-05-04T09:46:19Z" finished-at="2020-05-04T09:47:27Z">
+    <groups>
+    </groups>
+    <test name="Facebook Assignment" duration-ms="67819" started-at="2020-05-04T09:46:19Z" finished-at="2020-05-04T09:47:27Z">
+      <class name="com.company.facebook.testsuite.FacebookTest">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.company.facebook.testsuite.FacebookTest@a2f921]" name="startTest" is-config="true" duration-ms="186" started-at="2020-05-04T15:16:19Z" finished-at="2020-05-04T15:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.company.facebook.testsuite.FacebookTest@a2f921]" name="launchBrowser" is-config="true" duration-ms="15521" started-at="2020-05-04T15:16:19Z" finished-at="2020-05-04T15:16:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.company.facebook.testsuite.FacebookTest@a2f921]" name="verifyLogin" duration-ms="25374" started-at="2020-05-04T15:16:34Z" finished-at="2020-05-04T15:17:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kattadevisaiprasad@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OTQ0MTQ2Mjg0MiQ=]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="postStatusMessage()[pri:1, instance:com.company.facebook.testsuite.FacebookTest@a2f921]" name="postStatusMessage" duration-ms="24386" started-at="2020-05-04T15:17:00Z" finished-at="2020-05-04T15:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postStatusMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.company.facebook.testsuite.FacebookTest@a2f921]" name="tearDown" is-config="true" duration-ms="2456" started-at="2020-05-04T15:17:24Z" finished-at="2020-05-04T15:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.company.facebook.testsuite.FacebookTest -->
+    </test> <!-- Facebook Assignment -->
+  </suite> <!-- Facebook -->
+</testng-results>

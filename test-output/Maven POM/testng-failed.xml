@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Maven POM]">
+  <test name="FirefoxTest(failed)">
+    <parameter name="password" value="VGVzdEAxMjM="/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="devisaiprasad62@gmail.com"/>
+    <classes>
+      <class name="com.company.app.testsuite.TestInsuranceCompany">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchBrowser"/>
+          <include name="verifyLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.company.app.testsuite.TestInsuranceCompany -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Maven POM] -->

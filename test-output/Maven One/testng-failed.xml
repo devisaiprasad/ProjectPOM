@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Maven One]">
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.company.app.testsuite.TestClass">
+        <methods>
+          <include name="terminateBrowser"/>
+          <include name="verifyLogin"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.company.app.testsuite.TestClass -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Maven One] -->

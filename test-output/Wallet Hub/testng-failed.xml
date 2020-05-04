@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Wallet Hub]">
+  <listeners>
+    <listener class-name="com.company.app.Listners.TestListeners"/>
+  </listeners>
+  <test name="Wallet Hub Assignment(failed)">
+    <parameter name="password" value="VGVzdEAxMjM="/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://wallethub.com/profile/test_insurance_company/"/>
+    <parameter name="username" value="devisaiprasad62@gmail.com"/>
+    <classes>
+      <class name="com.company.wallethub.testsuite.InsuranceCompanyRatingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchBrowser"/>
+          <include name="provideRating"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.company.wallethub.testsuite.InsuranceCompanyRatingTest -->
+    </classes>
+  </test> <!-- Wallet Hub Assignment(failed) -->
+</suite> <!-- Failed suite [Wallet Hub] -->

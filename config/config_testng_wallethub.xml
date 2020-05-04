@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Wallet Hub" >
+
+ <listeners>
+ 	<listener class-name="com.company.app.Listners.TestListeners"/>
+  </listeners>
+  <test name="Wallet Hub Assignment" verbose="2"  thread-count="1">
+   
+ 	<parameter name="browser" value="chrome" />
+ 	<parameter name="url" value="http://wallethub.com/profile/test_insurance_company/" />
+ 	
+ 	<!-- ***** Please use your credentials during execution ***** -->
+ 	<parameter name="username" value="XXXXXXXXX@gmail.com" />
+ 	<parameter name="password" value="XXXXXXXXXXXx" />
+ 	
+    <packages>
+      <package name="com.company.wallethub.pages"/>
+      <package name="com.company.wallethub.testsuite"/>
+      <package name="com.company.app.utility"/>
+      <package name="com.company.app.common"/>
+    </packages>
+  </test> 
+  
+
+  
+</suite> 
