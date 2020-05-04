@@ -39,7 +39,7 @@ public class WalletHubTest extends BaseTest{
 	TestInsuranceCompanyRatingPage objTestInsCompRating;
 	ProfilePage objProfile; 
 	
-	// Assignment Step -  1
+	// 2nd Assignment Step -  1
 	@Parameters({ "username", "password" })
 	@Test(priority = 0)
 	public void verifyLogin(String user, String pwd) throws InterruptedException {
@@ -63,7 +63,7 @@ public class WalletHubTest extends BaseTest{
 	       
 	 }
 	
-	// Assignment Step -  2
+	// 2nd Assignment Step -  2
 	@Test(priority = 1)
 	public void VerifyTestInsuranceCompanyRatingPage() throws InterruptedException {
 		// Createobject
@@ -81,7 +81,7 @@ public class WalletHubTest extends BaseTest{
 	 }
 	
 	
-	// Assignment Step -  3,4,5
+	//  2nd Assignment Step -  3,4,5
 	@Test(priority = 2)
 	public void provideRating() throws InterruptedException {
 		// Create object
@@ -101,7 +101,7 @@ public class WalletHubTest extends BaseTest{
 	 }
 
 	
-	// Assignment Step -  6
+	//  2nd Assignment Step -  6
 	@Test(priority = 3)
 	public void verifyProfile() throws InterruptedException {
 		// Createobject
