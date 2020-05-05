@@ -11,8 +11,8 @@
  	<parameter name="url" value="https://www.facebook.com/" />
  	
  	<!-- Please use your credentials during execution -->
- 	<parameter name="username" value="XXXXXXXXX@gmail.com" />
- 	<parameter name="password" value="XXXXXXXXXXXx" />
+ 	<parameter name="username" value="XXXXXXXXXXX" />
+ 	<parameter name="password" value="XXXXXXXXXXX" />
  	
     <packages>
       <package name="com.company.facebook.pages"/>

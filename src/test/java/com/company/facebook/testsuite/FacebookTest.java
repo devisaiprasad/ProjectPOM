@@ -67,7 +67,7 @@ public class FacebookTest extends BaseTest{
 	    
 		//Verify home page
 		System.out.println("Home Page Title :: " +objHome.getHomePageTitle());
-	    Assert.assertTrue(objHome.getHomePageTitle().equals(FacebookConstantspage.homePageTitle));  
+	    Assert.assertTrue(objHome.getHomePageTitle().contains(FacebookConstantspage.homePageTitle));  
 	    logger.log(LogStatus.PASS, "Login is Successful and navigated to Home Page -Test Insurance Company");
 	       
 	 }
