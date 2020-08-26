@@ -31,7 +31,8 @@ import com.company.wallethub.pages.WalletHubLoginPage;
 import com.relevantcodes.extentreports.LogStatus;
 
 
-//comment
+//comment1
+//comment2
 public class WalletHubTest extends BaseTest{
 	
 	WalletHubLoginPage objLogin;
