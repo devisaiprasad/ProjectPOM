@@ -1,57 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results ignored="3" total="4" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Facebook" duration-ms="67819" started-at="2020-05-04T09:46:19Z" finished-at="2020-05-04T09:47:27Z">
+  <suite started-at="2020-08-26T01:44:36Z" name="Default suite" finished-at="2020-08-26T01:44:36Z" duration-ms="25">
     <groups>
     </groups>
-    <test name="Facebook Assignment" duration-ms="67819" started-at="2020-05-04T09:46:19Z" finished-at="2020-05-04T09:47:27Z">
-      <class name="com.company.facebook.testsuite.FacebookTest">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:com.company.facebook.testsuite.FacebookTest@a2f921]" name="startTest" is-config="true" duration-ms="186" started-at="2020-05-04T15:16:19Z" finished-at="2020-05-04T15:16:19Z">
+    <test started-at="2020-08-26T01:44:36Z" name="Default test" finished-at="2020-08-26T01:44:36Z" duration-ms="25">
+      <class name="com.company.wallethub.testsuite.WalletHubTest">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.company.wallethub.testsuite.WalletHubTest@942a29c]" started-at="2020-08-26T07:14:36Z" name="startTest" finished-at="2020-08-26T07:14:36Z" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="launchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.company.facebook.testsuite.FacebookTest@a2f921]" name="launchBrowser" is-config="true" duration-ms="15521" started-at="2020-05-04T15:16:19Z" finished-at="2020-05-04T15:16:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.facebook.com/]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="launchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.company.wallethub.testsuite.WalletHubTest@942a29c]" started-at="2020-08-26T07:14:36Z" name="launchBrowser" finished-at="2020-08-26T07:14:36Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\devis\AppData\Local\Temp\testng-eclipse-182703687\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\devis\AppData\Local\Temp\testng-eclipse-182703687\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:203)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.company.facebook.testsuite.FacebookTest@a2f921]" name="verifyLogin" duration-ms="25374" started-at="2020-05-04T15:16:34Z" finished-at="2020-05-04T15:17:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kattadevisaiprasad@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[OTQ0MTQ2Mjg0MiQ=]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="verifyProfile()[pri:3, instance:com.company.wallethub.testsuite.WalletHubTest@942a29c]" started-at="2020-08-26T07:14:36Z" name="verifyProfile" finished-at="2020-08-26T07:14:36Z" duration-ms="1" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\devis\AppData\Local\Temp\testng-eclipse-182703687\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\devis\AppData\Local\Temp\testng-eclipse-182703687\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:203)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="postStatusMessage()[pri:1, instance:com.company.facebook.testsuite.FacebookTest@a2f921]" name="postStatusMessage" duration-ms="24386" started-at="2020-05-04T15:17:00Z" finished-at="2020-05-04T15:17:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postStatusMessage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.company.facebook.testsuite.FacebookTest@a2f921]" name="tearDown" is-config="true" duration-ms="2456" started-at="2020-05-04T15:17:24Z" finished-at="2020-05-04T15:17:27Z">
+        </test-method> <!-- verifyProfile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.company.wallethub.testsuite.WalletHubTest@942a29c]" started-at="2020-08-26T07:14:36Z" name="tearDown" finished-at="2020-08-26T07:14:36Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.company.facebook.testsuite.FacebookTest -->
-    </test> <!-- Facebook Assignment -->
-  </suite> <!-- Facebook -->
+      </class> <!-- com.company.wallethub.testsuite.WalletHubTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.company.app.testsuite.TestClass">
+      <class name="com.company.wallethub.testsuite.WalletHubTest">
         <methods>
-          <include name="verifyHomepageTitle"/>
-          <include name="launchBrowser"/>
+          <include name="verifyProfile"/>
+          <include name="startTest"/>
         </methods>
-      </class> <!-- com.company.app.testsuite.TestClass -->
+      </class> <!-- com.company.wallethub.testsuite.WalletHubTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

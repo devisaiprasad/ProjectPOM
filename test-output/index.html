@@ -29,16 +29,16 @@
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Facebook">
-              <span class="suite-name border-passed">Facebook</span>
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-skipped">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Facebook">
-                    <span>C:\Users\Chinni\eclipse-workspace\TestMavenPOM\config\config_testng_facebook.xml</span>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\devis\AppData\Local\Temp\testng-eclipse-182703687\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Facebook">
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Facebook">
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Facebook">
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Facebook">
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Facebook">
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Facebook">
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,26 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,  1 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Facebook" class="hide-methods passed suite-Facebook"> (hide)</a> <!-- hide-methods passed suite-Facebook -->
-                      <a href="#" panel-name="suite-Facebook" class="show-methods passed suite-Facebook"> (show)</a> <!-- show-methods passed suite-Facebook -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Facebook">
+                    <div class="method-list-content skipped suite-Default_suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Facebook" title="com.company.facebook.testsuite.FacebookTest" hash-for-method="postStatusMessage">postStatusMessage</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.company.wallethub.testsuite.WalletHubTest" class="method navigator-link" hash-for-method="verifyProfile">verifyProfile</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Facebook" title="com.company.facebook.testsuite.FacebookTest" hash-for-method="verifyLogin(kattadevisaiprasad@gmail.com, OTQ0MTQ2Mjg0MiQ=)">verifyLogin(kattadevisaiprasad@gmail.com, OTQ0MTQ2Mjg0MiQ=)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Facebook -->
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -121,158 +116,160 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Facebook" class="panel Facebook">
-          <div class="suite-Facebook-class-passed">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.company.facebook.testsuite.FacebookTest</span>
+              <img src="skipped.png"/>
+              <span class="class-name">com.company.wallethub.testsuite.WalletHubTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="postStatusMessage">
-                  </a> <!-- postStatusMessage -->
-                  <span class="method-name">postStatusMessage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLogin(kattadevisaiprasad@gmail.com, OTQ0MTQ2Mjg0MiQ=)">
-                  </a> <!-- verifyLogin(kattadevisaiprasad@gmail.com, OTQ0MTQ2Mjg0MiQ=) -->
-                  <span class="method-name">verifyLogin</span>
-                  <span class="parameters">(kattadevisaiprasad@gmail.com, OTQ0MTQ2Mjg0MiQ=)</span>
+                  <a name="verifyProfile">
+                  </a> <!-- verifyProfile -->
+                  <span class="method-name">verifyProfile</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\devis\AppData\Local\Temp\testng-eclipse-182703687\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:203)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Facebook-class-passed -->
-        </div> <!-- panel Facebook -->
-        <div panel-name="test-xml-Facebook" class="panel">
+          </div> <!-- suite-Default_suite-class-skipped -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Chinni\eclipse-workspace\TestMavenPOM\config\config_testng_facebook.xml</span>
+            <span class="header-content">C:\Users\devis\AppData\Local\Temp\testng-eclipse-182703687\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Facebook&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.company.app.Listners.TestListeners&quot;/&gt;
-  &lt;/listeners&gt;
-  &lt;test thread-count=&quot;1&quot; verbose=&quot;2&quot; name=&quot;Facebook Assignment&quot;&gt;
-    &lt;parameter name=&quot;password&quot; value=&quot;OTQ0MTQ2Mjg0MiQ=&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;parameter name=&quot;url&quot; value=&quot;https://www.facebook.com/&quot;/&gt;
-    &lt;parameter name=&quot;username&quot; value=&quot;kattadevisaiprasad@gmail.com&quot;/&gt;
-    &lt;packages&gt;
-      &lt;package name=&quot;com.company.facebook.pages&quot;/&gt;
-      &lt;package name=&quot;com.company.facebook.testsuite&quot;/&gt;
-      &lt;package name=&quot;com.company.app.utility&quot;/&gt;
-    &lt;/packages&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.company.facebook.pages.FacebookConstantspage&quot;/&gt;
-      &lt;class name=&quot;com.company.facebook.pages.FBHomePage&quot;/&gt;
-      &lt;class name=&quot;com.company.facebook.pages.FBLoginPage&quot;/&gt;
-      &lt;class name=&quot;com.company.facebook.testsuite.FacebookTest&quot;/&gt;
-      &lt;class name=&quot;com.company.app.utility.Utility&quot;/&gt;
+      &lt;class name=&quot;com.company.wallethub.testsuite.WalletHubTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyProfile&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.company.wallethub.testsuite.WalletHubTest --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Facebook Assignment --&gt;
-&lt;/suite&gt; &lt;!-- Facebook --&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Facebook" class="panel">
+        <div panel-name="testlist-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Facebook</span>
+            <span class="header-content">Tests for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Facebook Assignment (5 classes)</span>
+                <span class="test-name">Default test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Facebook" class="panel">
+        <div panel-name="group-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Facebook</span>
+            <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Facebook" class="panel">
+        <div panel-name="times-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Facebook</span>
+            <span class="header-content">Times for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Facebook');
-function tableData_Facebook() {
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyLogin')
-data.setCell(0, 2, 'com.company.facebook.testsuite.FacebookTest')
-data.setCell(0, 3, 25374);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'postStatusMessage')
-data.setCell(1, 2, 'com.company.facebook.testsuite.FacebookTest')
-data.setCell(1, 3, 24386);
-window.suiteTableData['Facebook']= { tableData: data, tableDiv: 'times-div-Facebook'}
+data.setCell(0, 1, 'verifyProfile')
+data.setCell(0, 2, 'com.company.wallethub.testsuite.WalletHubTest')
+data.setCell(0, 3, 1);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 49 seconds</span>
-              <div id="times-div-Facebook">
-              </div> <!-- times-div-Facebook -->
+              <span class="suite-total-time">Total running time: 1 ms</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Facebook" class="panel">
+        <div panel-name="reporter-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Facebook</span>
+            <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Facebook" class="panel">
+        <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.company.wallethub.testsuite.WalletHubTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyLogin</span>
+                <br/>
+                <span class="ignored-method-name">provideRating</span>
+                <br/>
+                <span class="ignored-method-name">VerifyTestInsuranceCompanyRatingPage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Facebook" class="panel">
+        <div panel-name="chronological-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.company.facebook.testsuite.FacebookTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.company.wallethub.testsuite.WalletHubTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">startTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-              <div class="configuration-class before">
-                <span class="method-name">launchBrowser(chrome, https://www.facebook.com/)</span>
-                <span class="method-start">213 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">verifyLogin(kattadevisaiprasad@gmail.com, OTQ0MTQ2Mjg0MiQ=)</span>
-                <span class="method-start">15781 ms</span>
+                <span class="method-name">verifyProfile</span>
+                <span class="method-start">238 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">postStatusMessage</span>
-                <span class="method-start">41160 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">65549 ms</span>
-              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

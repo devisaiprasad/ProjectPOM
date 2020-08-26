@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Facebook]">
-  <listeners>
-    <listener class-name="com.company.app.Listners.TestListeners"/>
-  </listeners>
-  <test name="Facebook Assignment(failed)">
-    <parameter name="password" value="OTQ0MTQ2Mjg0MiQ="/>
-    <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="https://www.facebook.com/"/>
-    <parameter name="username" value="kattadevisaiprasad@gmail.com"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.company.facebook.testsuite.FacebookTest">
+      <class name="com.company.wallethub.testsuite.WalletHubTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="postStatusMessage"/>
-          <include name="launchBrowser"/>
+          <include name="verifyProfile"/>
           <include name="startTest"/>
         </methods>
-      </class> <!-- com.company.facebook.testsuite.FacebookTest -->
+      </class> <!-- com.company.wallethub.testsuite.WalletHubTest -->
     </classes>
-  </test> <!-- Facebook Assignment(failed) -->
-</suite> <!-- Failed suite [Facebook] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
